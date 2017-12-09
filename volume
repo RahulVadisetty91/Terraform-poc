@@ -1,0 +1,21 @@
+ {
+    "DeviceName": "/dev/sda1",
+    "Ebs": {
+      "DeleteOnTermination": true,
+      "VolumeSize": 8,
+      "VolumeType": "gp2"
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  ebs_block_device {
+    device_name           = "/dev/sda1"
+    volume_type           = "gp2"
+    volume_size           = 100
+    delete_on_termination = true
+  }
